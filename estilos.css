@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: rgb(252, 254, 255);
+}
+
+section#datos{
+    padding-top: 50px;
+    padding-bottom: 0px;
+    border: 5px solid rgb(79, 140, 160);
+    height: 350px;
+}
+
+.datos_presentacion{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos_presentacion img{
+    padding-bottom: 20px;
+}
+
+.datos_generales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+section#datos .datos_generales ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+section#datos .datos_generales ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 10px;
+}
+
+section#estudios{
+    padding-top: 50px;
+    padding-bottom: 0px;
+    border: 5px solid rgb(79, 140, 160);
+    height: 350px;
+    }
+
+section#estudios h2{
+    padding-top: 0px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.estudios_realizados{
+    display: flex;
+    justify-content: center;
+}
+
+.estudios_completos{
+    display: flex;
+    flex-direction: column;
+    border: solid lightseagreen;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+    margin: 25px;
+    border-radius: 20px;
+}
+
+section#capacitaciones{
+    padding-top: 50px;
+    padding-bottom: 0px;
+    border: 5px solid rgb(79, 140, 160);
+    height: 350px;
+    }
+
+section#capacitaciones h2{
+    padding-top: 0px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.cursos{
+    display: flex;
+    justify-content: center;
+}
+
+.cursos_relizado{
+    display: flex;
+    flex-direction: column;
+    border: solid lightseagreen;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+    margin: 25px;
+    border-radius: 20px;
+}
+
+section#contacto{
+    padding-top: 50px;
+    padding-bottom: 0px;
+    border: 5px solid rgb(79, 140, 160);
+    height: 350px;
+}
+
+section#contacto h2{
+    padding-top: 0px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+section#contacto form{
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+

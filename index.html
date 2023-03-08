@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" type="text/css" href="/estilos.css" />
+</head>
+<body>
+    <script src="funciones.js"></script>
+
+    <header>
+        <title>Curriculum Vitae</title>
+    </header>
+
+<main>
+
+    <section id="datos">
+        <div class="datos_principales">
+
+            <div class="datos_presentacion" id="foto_usuario">
+                <img src="./imagenes/imagen1.jpg">  
+                <h2>NOMBRE Y APELLIDO</h2> 
+            </div>
+
+            <div class="datos_generales" id="lista_datos">
+                <ul>
+                    <li class="fecha"> 
+                        <h3>FECHA DE NACIMIENTO</h3>
+                    </li>
+                    <li>
+                        <h3>ESTADO CIVIL</h3>
+                    </li>
+                    <li>
+                        <h3>DNI</h3>
+                    </li>
+                    <li>
+                         <h3>TELEFONO</h3>
+                    </li>
+                    <li>
+                        <h3>E-MAIL</h3>
+                    </li>
+                </ul>
+            </div>
+        
+        </div>   
+
+    </section>
+
+    <section id="estudios">
+        <h2>Estudios Completados</h2>
+
+        <div class="estudios_realizados">
+
+            <div class="estudios_completos"> 
+                <h3>Estudios Primarios y Secundarios Finalizados</h3>
+                <p>nombre de la escuela secundaria/primaria </p>
+            </div>
+                    
+               <div class="estudios_completos"> 
+                <h3>Estudios Universitarios Finalizados</h3>
+                <p>descripción del titulo</p>
+            </div>
+    
+            <div class="estudios_completos"> 
+                <h3>Titulo de idioma Ingles - nivel Intermedio Superior</h3>
+                <p>nombre del establecimiento</p>
+            </div>
+
+        </div>           
+
+    </section>
+    
+    <section id="capacitaciones">
+        <h2>Curso realizados</h2>
+        <div class="cursos">
+
+            <div class="cursos_relizado"> 
+                <img src="">
+                <h3>Curso 1</h3>
+                <p>descripción del curso</p>
+            </div>
+            <div class="cursos_relizado"> 
+                <img src="">
+                <h3>Curso 2</h3>
+                <p>descripción del curso</p>
+            </div>
+            <div class="cursos_relizado"> 
+                <img src="">
+                <h3>Curso 3</h3>
+                <p>descripción del curso</p>
+            </div>
+
+        </div>       
+    </section>
+
+    <section id="contacto">
+        <h2>Para contactarse conmigo</h2>
+        <form id="Formulario">
+            <div>
+                <label>Asunto</label>
+                <input type="text" name="asunto" placeholder="Asunto">
+            </div>
+
+            <div>
+                <label>Consulta</label>
+                <input type="text" name="consulta" placeholder="Consulta">
+            </div>
+
+            <div>
+                <label>Mensaje</label>
+                <textarea cols="50" rows="10" placeholder="Mensaje"></textarea>
+            </div>
+            <div>
+                <button type="button" id="boton" onclick="saludar(Mensaje, enviado)">Enviar</button>
+            </div>
+            
+        </form>
+    </section>
+</main>
+
+<footer></footer>    
+
+</body>
+</html>
